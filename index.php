@@ -3,6 +3,8 @@
   #Consider printing 1-10
   
   for($i=1;$i<=10;$i++){
-    echo $i.'<br/>';  //output 'i' value on each new row
+    echo $i;  //output 'i' value on each new row
+    echo '<br/>';
+    echo 'Added this lines after making a pull request';
   }
 ?>
